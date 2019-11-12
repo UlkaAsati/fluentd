@@ -1,6 +1,11 @@
 language: ruby
 cache: bundler
 
+os:
+  - linux
+  
+arch: ppc64le
+
 # script: bundle exec rake test TESTOPTS=-v
 
 # http://rubies.travis-ci.org/
