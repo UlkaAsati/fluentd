@@ -19,10 +19,12 @@ matrix:
     - rvm: 2.2.10
     #  os: linux-ppc64le
       os: linux
+      arch: ppc64le
     #- rvm: 2.4.6
     #  os: linux
     - rvm: 2.4.6
       os: linux
+      arch: ppc64le
     #  os: linux-ppc64le
     #- rvm: 2.5.5
     #  os: linux
@@ -32,6 +34,7 @@ matrix:
     #  os: linux
     - rvm: ruby-head
       os: linux
+      arch: ppc64le
      # os: linux-ppc64le
     #- rvm: 2.1.10
     #  os: osx
